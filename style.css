@@ -1,0 +1,71 @@
+button {
+  border-radius: 20px;
+  background-color: aquamarine;
+  border: 2px solid #7424c0;
+  color: white;
+  margin: 0 0 0 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+body{
+  margin: 0;
+  height: 100%;
+}
+html {
+  height: 100%;
+  background-size: cover;
+  background-image: url(6.jpg);
+  background-repeat: no-repeat;
+}
+#test{
+  justify-content: center;
+  text-align: center;
+  border-radius:20px;
+}
+.hidden {
+    display: none;
+  }
+#weather {
+  position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius:20px; 
+
+}
+#clock {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius:20px; 
+  
+}
+#greeting {
+  justify-content: center;
+  text-align: center;
+  border-radius:20px; 
+
+}
+#login-form {
+  justify-content: center;
+  text-align: center;
+  height: 20px;
+  margin: 200px 0 0 0;
+  border-radius:20px; 
+}
+#todo-list {
+  justify-content: center;
+  text-align: center;
+  border-radius:20px; 
+  list-style: none;
+
+}
+#todo-form {
+  justify-content: center;
+  text-align: center;
+  border-radius:20px; 
+
+}
